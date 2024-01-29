@@ -1,0 +1,2 @@
+let sideA ;
+let sideB ;
