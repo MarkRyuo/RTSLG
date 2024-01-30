@@ -10,14 +10,47 @@
 
   <section>
     <div class="container my-3">
-      <div class="text-center">
+      <div class="text-center p-4">
         <p class="display-6">Random Triangle Side Lengths Generator</p>
         <p class="lead">This Program is randomly asign side by side, this is auto generate number .</p>
       </div>
 
         <div class="mt-4">
           <p class="lead fs-4"> Formula : c² = √ a² + b²</p>
-        </div>
+        </div> 
+
+        <form action="" class="row justify-content-center align-items-center">
+
+          <div class="">
+            <label for="sideA">Side a² : <span id="textA"></span> </label>
+            <br>
+            <label for="sideB">Side b² : <span id="textB"></span> </label>
+          </div>
+      
+          <div class=""> <!-- Side A -->
+            <label for="sideA">Side a² :</label>
+            <input type="text" name="sideA" id="sideA" readonly>
+          </div>
+      
+          <div>
+            <p>+</p>
+          </div>
+      
+          <div class=""> <!-- Side B -->
+            <label for="sideB">Side b² :</label>
+            <input type="text" name="sideB" id="sideB" readonly>
+          </div>
+      
+          <!-- <div class="">
+            <button type="button" id="btnside">Submit</button>
+          </div> -->
+      
+          <div>
+            <p>Answer : <span id="answer"></span></p>
+          </div>
+      
+        </form>
+
     </div> <!--End of container-->
   </section>
   
