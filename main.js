@@ -10,3 +10,7 @@ let sideB ;
 //   sideB = Number(sideB) ;
 
 // }
+
+
+sideA = Math.ceil(Math.random() * 100) ;
+sideB = Math.ceil(Math.random() * 100) ;
