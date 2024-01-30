@@ -14,3 +14,5 @@ let sideB ;
 
 sideA = Math.ceil(Math.random() * 100) ;
 sideB = Math.ceil(Math.random() * 100) ;
+
+answer = Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2)) ;
