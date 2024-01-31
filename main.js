@@ -15,5 +15,7 @@ answer = Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2)) ;
 
 document.getElementById("answer").innerHTML = answer ;
 
+console.log(sideA) ;
+
 // console.log(window.innerHeight) ;
 // console.log(window.innerWidth) ;
