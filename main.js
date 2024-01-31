@@ -16,7 +16,7 @@ answer = Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2)) ;
 document.getElementById("answer").innerHTML = answer ;
 
 console.log(sideA) ;
-console.log(sideB) ;
+console.log("The given side b is " + sideB) ;
 console.log("The c is " + answer) ;
 
 // console.log(window.innerHeight) ;
