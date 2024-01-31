@@ -23,5 +23,5 @@ console.log("The c is " + answer) ;
 // console.log(window.innerWidth) ;
 
 
-// Todo create a converter ;
+// Todo create a converter round up and round down;
 
