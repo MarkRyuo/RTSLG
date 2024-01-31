@@ -21,3 +21,7 @@ console.log("The c is " + answer) ;
 
 // console.log(window.innerHeight) ;
 // console.log(window.innerWidth) ;
+
+
+// Todo create a converter ;
+
