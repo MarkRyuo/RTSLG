@@ -33,7 +33,7 @@ document.getElementById("roundUp").onclick = function () {
 
 document.getElementById("rounddown").onclick = function () {
 
-  answer = Math.ceil(answer) ;
-  document.getElementById("answerUp").innerHTML = answer ;
+  answer = Math.floor(answer) ;
+  document.getElementById("answerdown").innerHTML = answer ;
 }
 
