@@ -31,3 +31,9 @@ document.getElementById("roundUp").onclick = function () {
   document.getElementById("answerUp").innerHTML = answer ;
 }
 
+document.getElementById("rounddown").onclick = function () {
+
+  answer = Math.ceil(answer) ;
+  document.getElementById("answerUp").innerHTML = answer ;
+}
+
