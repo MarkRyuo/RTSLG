@@ -2,11 +2,11 @@ let sideA ;
 let sideB ;
 
 
-sideA = Math.ceil(Math.random() * 100) ;
+sideA = Math.random() * 100 ;
 document.getElementById("textA").innerHTML = sideA ;
 document.getElementById("sideA").value = sideA ;
 
-sideB = Math.ceil(Math.random() * 100) ;
+sideB = Math.random() * 100 ;
 document.getElementById("textB").innerHTML = sideB ;
 document.getElementById("sideB").value = sideB ;
 
