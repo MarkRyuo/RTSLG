@@ -27,6 +27,7 @@ console.log("The c is " + answer) ;
 
 document.getElementById("roundUp").onclick = function () {
 
-  
+  answer = Math.ceil(answer) ;
+  document.getElementById("answerUp").innerHTML = answer ;
 }
 
