@@ -34,6 +34,6 @@ document.getElementById("roundUp").onclick = function () {
 document.getElementById("rounddown").onclick = function () {
 
   answer = Math.floor(answer) ;
-  document.getElementById("answerdown").innerHTML = answer ;
+  document.getElementById("answerdown").innerHTML = "Round Down side c: " +answer ;
 }
 
