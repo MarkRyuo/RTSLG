@@ -25,3 +25,8 @@ console.log("The c is " + answer) ;
 
 // Todo create a converter round up and round down;
 
+document.getElementById("roundUp").onclick = function () {
+
+  
+}
+
