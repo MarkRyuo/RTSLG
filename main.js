@@ -37,3 +37,4 @@ document.getElementById("rounddown").onclick = function () {
   document.getElementById("answerdown").innerHTML = "Round Down side c: " +answer ;
 }
 
+console.log("Hello World")
